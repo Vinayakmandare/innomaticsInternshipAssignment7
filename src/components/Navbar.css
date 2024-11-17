@@ -1,0 +1,59 @@
+nav .container{
+    display: flex;
+    gap: 1rem;
+    /* justify-content: end; */
+    padding:10px;
+  }
+  
+  .active {
+    font-weight: bold;
+    color: blue;
+  }
+ 
+  .nav-items{
+   color:#000;
+   text-decoration: none !important;
+   margin: 7px;
+  }
+  .logo{
+    margin-right: 50%;
+  }
+   .border-1{
+    border: 1px solid black !important;
+    border-radius: 8px;
+    width: 70% !important;
+  }
+  .line-height{
+    line-height: 40px;
+  }
+  footer{
+    background-color: #000;
+    height: 60vh;
+  }
+ .para{
+   width: 32% !important;
+   text-align: justify;
+   color: #fff;
+  }
+  .courses{
+    margin-top: -60px;
+    color:#fff;
+  }
+ .contact-details{
+  margin-top: -60px;
+  color:#fff;
+ }
+ .location-info{
+  width: 500px;
+  text-align: justify;
+ }
+ .services{
+  text-align: center;
+  list-style: none;
+  font-size: large;
+ }
+form{
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  padding: 50px;
+}
