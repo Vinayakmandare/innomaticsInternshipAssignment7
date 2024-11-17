@@ -11,7 +11,7 @@ const ServiceDetail = () => {
   return( 
   <>
   <h2 className='text-center'>Details about our {serviceType} service.</h2>
-  { window.location.href === 'http://localhost:3000/services/design' ? 
+  { window.location.href === 'https://vinayakmandare.github.io/services/design' ? 
   <div className="text-center">
    <img src={design} height={500}/> 
    </div>
